@@ -1,21 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GAME</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>example</title>
 	<style type="text/css">
-		background: url('ocean_tree_by_kiarya-d8n2dco.png')
+		header{
+			text-align: center;
+			background-color: #91ffff;
+			opacity: .9;
+			padding-top: 15px;
+			margin: 5px;
+			font-size: 20px;
+			 border-radius: 20px;
+			 vertical-align: bottom;
+		}
+		h1{
+			font-size: 40px;
+			vertical-align: bottom;
+		}
+		.card{
+			width: 18%;
+			margin-left: 5px;
+		}
+		.logpass{
+			background-color: #08e8de;
+			width: 400px;
+			position: absolute;
+			left: 50%;
+			margin-left: -200px;	
+			padding: 15px;
+			border-radius: 5px;
+		}
+		.autho{
+			font-size: 15px;
+		}
+		.btn-secondary{
+			margin-left: 45px;
+		}
+		.main
+		{
+			/*display: flex;*/
+			/*flex-direction: column;*/
+		}
+		.footer{
+		position: fixed; 
+		bottom: 0; 
+		color: #fff; 
+		width: 100%; 
+		background: #4a919e; 
+		text-align: center; 
+		}
 	</style>
 </head>
 <body background="ocean_tree_by_kiarya-d8n2dco.png">
-	<div>
-		<h1>Название игры: Подводные тайны</h1>
-	</div>
-	<div>
-		<h1></h1>
-	</div>
-	<div></div>
-	<div></div>
 
+<div class="main">
+		<header>
+			<h1>Подводные тайны</h1><br>
+		</header>
+		<div class = "footer">
+			<p>Абрамов Сёма, 181-352, №4</p>
+		</div>
 
-</body>
+	<div class="logpass">
+		<form>
+		  <div class="form-group">
+		  	<label class="autho"><b>Авторизируйтесь</b></label><br>
+		    <label for="exampleInputEmail1">Your login</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="login">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Your password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+		  </div>
+		  <a href="game.html" class="btn btn-primary">Авторизоваться</a>
+		  <a href="registr.html" class="btn btn-secondary">Зарегистрироваться</a>
+		</form>
+	</div>
+</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
